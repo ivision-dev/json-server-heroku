@@ -1,9 +1,1741 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "Projects": [
+    {
+      "projectName": "M Mart",
+      "projectIconPath": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAACQKrqGAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABpJREFUeNpi/L/mDwNxgImBaDCqdFQpQIABAFsLAsMWxnKxAAAAAElFTkSuQmCC",
+      "comment": "M mart.",
+      "createdDate": "2019/9/27",
+      "createdBy": "Admin",
+      "progress": 85,
+      "isDelete": 0,
+      "deletedDate": 0,
+      "deletedBy": "",
+      "saveAndCreateNew": false,
+      "id": 1
+    },
+    {
+      "projectName": "N-Mart1",
+      "projectIconPath": "",
+      "comment": "This project is for N-Mart.",
+      "createdDate": "2019/9/27",
+      "createdBy": "Admin",
+      "progress": 70,
+      "isDelete": 0,
+      "deletedDate": 0,
+      "deletedBy": "",
+      "saveAndCreateNew": false,
+      "id": 2
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "DatasetMaster": [
+    {
+      "projectId": 1,
+      "datasetName": "Cold Storage Sections",
+      "datasetType": "Video",
+      "comment": "Indrayani Thadi drone dataset to be used or facial sentimentanalysis.",
+      "status": "Annotated",
+      "createdDate": "30/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": 0,
+      "deletedBy": "",
+      "timeForAnnotation": 11,
+      "timeForQualityAssurance": 7,
+      "attributeAssigned": 11,
+      "objectAnnotated": 81,
+      "framesProcesed": 5,
+      "attributeAssigmedValue": 3109,
+      "objectAnnotatedValue": 1005,
+      "framesProcesedValue": 7421,
+      "id": 1
+    },
+    {
+      "projectId": 1,
+      "datasetName": "Grocery Section",
+      "datasetType": "Image",
+      "comment": "This type of dataset is generate for to store grocery images.",
+      "status": "Inprogress",
+      "createdDate": "25/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": 0,
+      "deletedBy": "",
+      "timeForAnnotation": 6,
+      "timeForQualityAssurance": 11,
+      "attributeAssigned": 65,
+      "objectAnnotated": 43,
+      "framesProcesed": 90,
+      "attributeAssigmedValue": 3380,
+      "objectAnnotatedValue": 6986,
+      "framesProcesedValue": 8393,
+      "id": 2
+    },
+    {
+      "projectId": 1,
+      "datasetName": "Handloom Section",
+      "datasetType": "Video",
+      "comment": "Handloom Section is type of dataset generated for videos",
+      "status": "Pending",
+      "createdDate": "25/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": 0,
+      "deletedBy": "",
+      "timeForAnnotation": 5,
+      "timeForQualityAssurance": 3,
+      "attributeAssigned": 24,
+      "objectAnnotated": 66,
+      "framesProcesed": 56,
+      "attributeAssigmedValue": 5477,
+      "objectAnnotatedValue": 9574,
+      "framesProcesedValue": 2864,
+      "id": 3
+    },
+    {
+      "projectId": 2,
+      "datasetName": "Food Section",
+      "datasetType": "Food Section dataset i",
+      "comment": "Video",
+      "status": "Pending",
+      "createdDate": "25/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": 0,
+      "deletedBy": "",
+      "timeForAnnotation": 6,
+      "timeForQualityAssurance": 8,
+      "attributeAssigned": 7,
+      "objectAnnotated": 39,
+      "framesProcesed": 92,
+      "attributeAssigmedValue": 3480,
+      "objectAnnotatedValue": 115,
+      "framesProcesedValue": 9374,
+      "id": 5
+    },
+    {
+      "projectId": 2,
+      "datasetName": "Cloth Section",
+      "datasetType": "Video",
+      "comment": "Cloth Section dataset is created for cloth images",
+      "status": "Annotated",
+      "createdDate": "25/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": 0,
+      "deletedBy": "",
+      "timeForAnnotation": 6,
+      "timeForQualityAssurance": 11,
+      "attributeAssigned": 37,
+      "objectAnnotated": 92,
+      "framesProcesed": 60,
+      "attributeAssigmedValue": 5015,
+      "objectAnnotatedValue": 7717,
+      "framesProcesedValue": 6194,
+      "id": 6
+    },
+    {
+      "projectId": 2,
+      "datasetName": "Demo Section",
+      "datasetType": "Image",
+      "comment": "Demo ",
+      "status": "Inprogress",
+      "createdDate": "25/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": 0,
+      "deletedBy": "",
+      "timeForAnnotation": 4,
+      "timeForQualityAssurance": 4,
+      "attributeAssigned": 46,
+      "objectAnnotated": 97,
+      "framesProcesed": 26,
+      "attributeAssigmedValue": 3112,
+      "objectAnnotatedValue": 8301,
+      "framesProcesedValue": 4437,
+      "id": 7
+    },
+    {
+      "projectId": 2,
+      "datasetName": "dataset 22",
+      "datasetType": "Video",
+      "comment": "dataset 22 image format",
+      "status": "Inprogress",
+      "createdDate": "25/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": 0,
+      "deletedBy": "",
+      "timeForAnnotation": 2,
+      "timeForQualityAssurance": 11,
+      "attributeAssigned": 15,
+      "objectAnnotated": 22,
+      "framesProcesed": 26,
+      "attributeAssigmedValue": 7384,
+      "objectAnnotatedValue": 8188,
+      "framesProcesedValue": 3124,
+      "id": 8
+    },
+    {
+      "projectId": 6,
+      "datasetName": "451",
+      "datasetType": "Image",
+      "comment": "966",
+      "status": "Inprogress",
+      "createdDate": "2019/9/23",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": 0,
+      "deletedBy": "",
+      "attributeAssigned": 95,
+      "objectAnnotated": 80,
+      "framesProcesed": 75,
+      "attributeAssigmedValue": 3099,
+      "objectAnnotatedValue": 2500,
+      "framesProcesedValue": 2000,
+      "id": 9
+    },
+    {
+      "projectId": 2,
+      "datasetName": "test rahul",
+      "comment": "dsdfds",
+      "status": "Inprogress",
+      "createdDate": "25/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": 0,
+      "deletedBy": "",
+      "timeForAnnotation": 9,
+      "timeForQualityAssurance": 3,
+      "attributeAssigned": 53,
+      "objectAnnotated": 66,
+      "framesProcesed": 6,
+      "attributeAssigmedValue": 2556,
+      "objectAnnotatedValue": 196,
+      "framesProcesedValue": 4985,
+      "id": 10
+    },
+    {
+      "projectId": 3,
+      "datasetName": "Dataset 1",
+      "comment": "dataset 1",
+      "status": "Inprogress",
+      "createdDate": "30/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": 0,
+      "deletedBy": "",
+      "timeForAnnotation": 7,
+      "timeForQualityAssurance": 5,
+      "attributeAssigned": 63,
+      "objectAnnotated": 17,
+      "framesProcesed": 56,
+      "attributeAssigmedValue": 6033,
+      "objectAnnotatedValue": 9722,
+      "framesProcesedValue": 4496,
+      "id": 11
+    },
+    {
+      "projectId": 3,
+      "datasetName": "Dataset 2",
+      "datasetType": "Images dataset 2",
+      "comment": "Image",
+      "status": "Pending",
+      "createdDate": "30/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": 0,
+      "deletedBy": "",
+      "timeForAnnotation": 8,
+      "timeForQualityAssurance": 11,
+      "attributeAssigned": 12,
+      "objectAnnotated": 32,
+      "framesProcesed": 89,
+      "attributeAssigmedValue": 1651,
+      "objectAnnotatedValue": 5071,
+      "framesProcesedValue": 4699,
+      "id": 12
+    }
   ],
-  "profile": { "name": "typicode" }
+  "DatasetDetails": [
+    {
+      "id": 1,
+      "datasetMasterId": 1,
+      "fileName": "dataset1.1",
+      "uploadFilePath": "./page1.jpg",
+      "comment": "Test",
+      "fileSize": 800,
+      "fileResolution": "700 X 960",
+      "fileType": "mov",
+      "framesPerSec": 0,
+      "noOfFrames": 30000,
+      "convertedToFrames": 15000,
+      "convertedFrameType": "png",
+      "convertedFramePerSec": 2,
+      "createdDate": "2019/9/15",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": ""
+    },
+    {
+      "id": 2,
+      "datasetMasterId": 1,
+      "fileName": "dataset1.2",
+      "uploadFilePath": "./page2.jpg",
+      "comment": "Test",
+      "fileSize": 700,
+      "fileResolution": "700 X 960",
+      "fileType": "mov",
+      "framesPerSec": 0,
+      "noOfFrames": 10000,
+      "convertedToFrames": 3333,
+      "convertedFrameType": "png",
+      "convertedFramePerSec": 3,
+      "createdDate": "2019/9/16",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": ""
+    },
+    {
+      "datasetMasterId": 1,
+      "fileName": "dataset1.3",
+      "uploadFilePath": "download.jpg",
+      "comment": "Image",
+      "fileSize": 10812,
+      "fileResolution": "700 X 960",
+      "fileType": "mov",
+      "framesPerSec": 0,
+      "noOfFrames": 7000,
+      "convertedToFrames": 3500,
+      "convertedFrameType": "png",
+      "convertedFramePerSec": 2,
+      "createdDate": "2019/9/15",
+      "createdBy": "Admin",
+      "id": 3
+    },
+    {
+      "datasetMasterId": 2,
+      "fileName": "E",
+      "uploadFilePath": "E.png",
+      "comment": "dddddddddd",
+      "fileSize": "0.0024",
+      "fileResolution": "700 X 920",
+      "fileType": "image/png",
+      "framesPerSec": 0,
+      "noOfFrames": 0,
+      "createdDate": "2019/9/15",
+      "createdBy": "Admin",
+      "id": 4
+    },
+    {
+      "datasetMasterId": 6,
+      "fileName": "Hydrangeas",
+      "uploadFilePath": "Hydrangeas.jpg",
+      "comment": "635",
+      "fileSize": "0.5676",
+      "fileResolution": "700 X 920",
+      "fileType": "image/jpeg",
+      "framesPerSec": 0,
+      "noOfFrames": 0,
+      "createdDate": "17/9/2019",
+      "createdBy": "Admin",
+      "id": 5
+    },
+    {
+      "datasetMasterId": 6,
+      "fileName": "Wakhra Swag - Official Video - Navv Inder feat. Badshah - New Video Song.webm",
+      "uploadFilePath": "Wakhra Swag - Official Video - Navv Inder feat. Badshah - New Video Song.webm",
+      "comment": "cvc",
+      "fileSize": "21.2624",
+      "fileResolution": "700 X 920",
+      "fileType": "video/webm",
+      "framesPerSec": 0,
+      "noOfFrames": 30000,
+      "convertedToFrames": 0,
+      "convertedFrameType": "",
+      "convertedFramePerSec": 0,
+      "createdDate": "25/9/2019",
+      "createdBy": "Admin",
+      "id": 15
+    },
+    {
+      "datasetMasterId": 6,
+      "fileName": "Chiangmai-Hostel.png",
+      "uploadFilePath": "Chiangmai-Hostel.png",
+      "comment": "dd",
+      "fileSize": "0.6536",
+      "fileResolution": "700 X 920",
+      "fileType": "image/png",
+      "framesPerSec": 0,
+      "noOfFrames": 30000,
+      "convertedToFrames": 0,
+      "convertedFrameType": "",
+      "convertedFramePerSec": 0,
+      "createdDate": "26/9/2019",
+      "createdBy": "Admin",
+      "id": 16
+    },
+    {
+      "datasetMasterId": 11,
+      "fileName": "chart.png",
+      "uploadFilePath": "chart.png",
+      "comment": "chart",
+      "fileSize": "0.0275",
+      "fileResolution": "700 X 920",
+      "fileType": "image/png",
+      "framesPerSec": 0,
+      "noOfFrames": 0,
+      "createdDate": "30/9/2019",
+      "createdBy": "Admin",
+      "id": 17
+    },
+    {
+      "datasetMasterId": 2,
+      "fileName": "ff",
+      "uploadFilePath": "chart.png",
+      "comment": "cc",
+      "fileSize": "0.0275",
+      "fileResolution": "700 X 920",
+      "fileType": "image/png",
+      "framesPerSec": 0,
+      "noOfFrames": 0,
+      "createdDate": "30/9/2019",
+      "createdBy": "Admin",
+      "id": 19
+    }
+  ],
+  "DatasetViewFrame": [
+    {
+      "id": 1,
+      "url": "assets/images/shubham.png",
+      "description": "shubham image",
+      "size": 1,
+      "createdDate": "17/9/2019",
+      "createdBy": "Admin"
+    },
+    {
+      "id": 3,
+      "url": "assets/images/fav.png",
+      "description": "fav image",
+      "size": 1,
+      "createdDate": "17/9/2019",
+      "createdBy": "Admin"
+    },
+    {
+      "id": 1,
+      "url": "assets/images/shubham.png",
+      "description": "shubham image",
+      "size": 1,
+      "createdDate": "17/9/2019",
+      "createdBy": "Admin"
+    }
+  ],
+  "Category": [
+    {
+      "projectId": 2,
+      "categoryName": "person",
+      "active": 1,
+      "createdDate": "26/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 2,
+      "processing": [
+        {
+          "processName": "Automaton AI",
+          "value": 0
+        },
+        {
+          "processName": "Resnet V1",
+          "value": 0
+        },
+        {
+          "processName": "YOLO",
+          "value": 0
+        },
+        {
+          "processName": "Mask R-CNN",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "projectId": 2,
+      "categoryName": "Face",
+      "active": 1,
+      "createdDate": "26/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 4,
+      "processing": [
+        {
+          "processName": "Automaton AI",
+          "value": 0
+        },
+        {
+          "processName": "Resnet V1",
+          "value": 0
+        },
+        {
+          "processName": "YOLO",
+          "value": 0
+        },
+        {
+          "processName": "Mask R-CNN",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "projectId": 1,
+      "categoryName": "Bags",
+      "active": 1,
+      "createdDate": "3/10/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "processing": [
+        {
+          "id": 1,
+          "processName": "Automaton AI",
+          "value": 34
+        },
+        {
+          "id": 2,
+          "processName": "Resnet V1",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "processName": "YOLO",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "processName": "Mask R-CNN",
+          "value": 0
+        }
+      ],
+      "id": 5
+    },
+    {
+      "projectId": 1,
+      "categoryName": "Person",
+      "active": 1,
+      "createdDate": "3/10/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "processing": [
+        {
+          "id": 1,
+          "processName": "Automaton AI",
+          "value": 98
+        },
+        {
+          "id": 2,
+          "processName": "Resnet V1",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "processName": "YOLO",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "processName": "Mask R-CNN",
+          "value": 0
+        }
+      ],
+      "id": 6
+    },
+    {
+      "projectId": 1,
+      "categoryName": "test",
+      "active": 1,
+      "createdDate": "25/10/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "processing": [
+        {
+          "id": 1,
+          "processName": "Automaton AI",
+          "value": 0
+        },
+        {
+          "id": 2,
+          "processName": "Resnet V1",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "processName": "YOLO",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "processName": "Mask R-CNN",
+          "value": 0
+        }
+      ],
+      "id": 7
+    }
+  ],
+  "Attributes": [
+    {
+      "categoryId": 1,
+      "active": 1,
+      "attributeName": "Upper Wear Color",
+      "createdDate": "07/26/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": ""
+    },
+    {
+      "categoryId": 3,
+      "active": 1,
+      "attributeName": "Height",
+      "createdDate": "19/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 3
+    },
+    {
+      "categoryId": 4,
+      "active": 1,
+      "attributeName": "2 Wheeler",
+      "createdDate": "19/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 5
+    },
+    {
+      "categoryId": 4,
+      "active": 0,
+      "attributeName": "Colour",
+      "createdDate": "19/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 6
+    },
+    {
+      "categoryId": 5,
+      "active": 1,
+      "attributeName": "Hand Bagb",
+      "createdDate": "19/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 7
+    },
+    {
+      "categoryId": 5,
+      "active": 1,
+      "attributeName": "colours",
+      "createdDate": "21/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 8
+    },
+    {
+      "attributeName": "width",
+      "active": 1,
+      "createdDate": "23/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 9
+    },
+    {
+      "categoryId": 6,
+      "active": 1,
+      "attributeName": "hair",
+      "createdDate": "26/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 10
+    },
+    {
+      "categoryId": 2,
+      "active": 1,
+      "attributeName": "dd",
+      "createdDate": "28/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 11
+    },
+    {
+      "active": 1,
+      "attributeName": "z",
+      "createdDate": "28/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 12
+    },
+    {
+      "active": 1,
+      "attributeName": "rrr",
+      "createdDate": "1/10/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 13
+    },
+    {
+      "categoryId": 6,
+      "active": 1,
+      "attributeName": "test",
+      "createdDate": "1/10/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 14
+    },
+    {
+      "categoryId": 7,
+      "projectId": 1,
+      "active": 1,
+      "attributeName": "Demo",
+      "createdDate": "25/10/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 15
+    }
+  ],
+  "AttributesDetails": [
+    {
+      "attributeId": 1,
+      "name": "height",
+      "createdDate": "25/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 3
+    },
+    {
+      "attributeId": 1,
+      "name": "weight",
+      "createdDate": "25/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 4
+    },
+    {
+      "attributeId": 2,
+      "name": "weight",
+      "createdDate": "25/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 5
+    },
+    {
+      "attributeId": 2,
+      "name": "height",
+      "createdDate": "25/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 6
+    },
+    {
+      "attributeId": 6,
+      "name": "Brown",
+      "createdDate": "19/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 7
+    },
+    {
+      "attributeId": 3,
+      "name": "1001px",
+      "createdDate": "20/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 9
+    },
+    {
+      "attributeId": 3,
+      "name": "2000px",
+      "createdDate": "20/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 10
+    },
+    {
+      "attributeId": 3,
+      "name": "200px",
+      "createdDate": "20/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 11
+    },
+    {
+      "attributeId": 8,
+      "name": "red",
+      "createdDate": "21/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 12
+    },
+    {
+      "attributeId": 8,
+      "name": "black",
+      "createdDate": "21/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 13
+    },
+    {
+      "attributeId": 7,
+      "name": "Tiny",
+      "createdDate": "21/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 14
+    },
+    {
+      "attributeId": 6,
+      "name": "Black",
+      "createdDate": "23/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 15
+    },
+    {
+      "attributeId": 6,
+      "name": "weight",
+      "createdDate": "28/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 16
+    },
+    {
+      "attributeId": 11,
+      "name": "p",
+      "createdDate": "28/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 17
+    },
+    {
+      "name": "ddd",
+      "createdDate": "1/10/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 20
+    },
+    {
+      "name": "ddd",
+      "createdDate": "1/10/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 21
+    },
+    {
+      "attributeId": 10,
+      "projectId": 1,
+      "name": "stright",
+      "createdDate": "16/10/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 23
+    },
+    {
+      "attributeId": 14,
+      "projectId": 1,
+      "name": "demo",
+      "createdDate": "18/10/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": "",
+      "deletedBy": "",
+      "id": 24
+    }
+  ],
+  "AccountInfo": [
+    {
+      "username": "Admin ",
+      "firstName": "Trushant",
+      "lastName": "Bhangre",
+      "email": "trushant@gmail.com",
+      "password": "123",
+      "accountType": "Manager",
+      "objectCount": 3211,
+      "timeSpent": 5,
+      "status": 1,
+      "id": 1
+    },
+    {
+      "username": "Master",
+      "firstName": "Rahul",
+      "lastName": "Rawade",
+      "email": "rahul@gmail.com",
+      "password": "111",
+      "accountType": "Manager",
+      "objectCount": 9403,
+      "timeSpent": 5,
+      "status": 1,
+      "id": 2
+    },
+    {
+      "username": "User",
+      "firstName": "Pravin",
+      "lastName": "Jadhav",
+      "email": "pravin@gmail.com",
+      "password": "222",
+      "accountType": "User",
+      "objectCount": 4332,
+      "timeSpent": 8,
+      "status": 1,
+      "id": 3
+    }
+  ],
+  "statistics": [
+    {
+      "id": 1,
+      "datasetName": "Dataset 1",
+      "attributeAssigned": 80,
+      "objectAnnotated": 60,
+      "framesProcesed": 40,
+      "attributeAssigmedValue": 2045,
+      "objectAnnotatedValue": 1500,
+      "framesProcesedValue": 1000
+    },
+    {
+      "id": 2,
+      "datasetName": "Dataset 2",
+      "attributeAssigned": 95,
+      "objectAnnotated": 80,
+      "framesProcesed": 75,
+      "attributeAssigmedValue": 3099,
+      "objectAnnotatedValue": 2500,
+      "framesProcesedValue": 2000
+    },
+    {
+      "id": 3,
+      "datasetName": "Dataset 3",
+      "attributeAssigned": 70,
+      "objectAnnotated": 60,
+      "framesProcesed": 10,
+      "attributeAssigmedValue": 1717,
+      "objectAnnotatedValue": 1200,
+      "framesProcesedValue": 999
+    },
+    {
+      "id": 4,
+      "datasetName": "Dataset 4",
+      "attributeAssigned": 60,
+      "objectAnnotated": 55,
+      "framesProcesed": 40,
+      "attributeAssigmedValue": 2020,
+      "objectAnnotatedValue": 1010,
+      "framesProcesedValue": 1000
+    },
+    {
+      "id": 5,
+      "datasetName": "Dataset 5",
+      "attributeAssigned": 90,
+      "objectAnnotated": 70,
+      "framesProcesed": 50,
+      "attributeAssigmedValue": 2045,
+      "objectAnnotatedValue": 1500,
+      "framesProcesedValue": 1000
+    },
+    {
+      "id": 6,
+      "datasetName": "Dataset 6",
+      "attributeAssigned": 80,
+      "objectAnnotated": 40,
+      "framesProcesed": 20,
+      "attributeAssigmedValue": 5000,
+      "objectAnnotatedValue": 4000,
+      "framesProcesedValue": 1000
+    },
+    {
+      "id": 7,
+      "datasetName": "Dataset 7",
+      "attributeAssigned": 60,
+      "objectAnnotated": 30,
+      "framesProcesed": 10,
+      "attributeAssigmedValue": 9000,
+      "objectAnnotatedValue": 5000,
+      "framesProcesedValue": 2000
+    },
+    {
+      "id": 8,
+      "datasetName": "Dataset 8",
+      "attributeAssigned": 80,
+      "objectAnnotated": 60,
+      "framesProcesed": 40,
+      "attributeAssigmedValue": 3999,
+      "objectAnnotatedValue": 1950,
+      "framesProcesedValue": 1212
+    }
+  ],
+  "Processing": [
+    {
+      "dataset": [
+        {
+          "projectId": 1,
+          "datasetName": "Cold Storage Sections",
+          "datasetType": "Indrayani Thadi drone dataset to be used or facial sentimentanalysis.",
+          "comment": "Video",
+          "status": "Annotated",
+          "createdDate": "30/9/2019",
+          "createdBy": "Admin",
+          "isDelete": 0,
+          "deletedDate": 0,
+          "deletedBy": "",
+          "timeForAnnotation": 11,
+          "timeForQualityAssurance": 7,
+          "attributeAssigned": 11,
+          "objectAnnotated": 81,
+          "framesProcesed": 5,
+          "attributeAssigmedValue": 3109,
+          "objectAnnotatedValue": 1005,
+          "framesProcesedValue": 7421,
+          "datasetDetails": [
+            {
+              "id": 2,
+              "datasetMasterId": 1,
+              "fileName": "dataset1.2",
+              "uploadFilePath": "./page2.jpg",
+              "comment": "Test",
+              "fileSize": 700,
+              "fileResolution": "700 X 960",
+              "fileType": "mov",
+              "framesPerSec": 0,
+              "noOfFrames": 10000,
+              "convertedToFrames": 3333,
+              "convertedFrameType": "png",
+              "convertedFramePerSec": 3,
+              "createdDate": "2019/9/16",
+              "createdBy": "Admin",
+              "isDelete": 0,
+              "deletedDate": "",
+              "deletedBy": ""
+            }
+          ],
+          "ckeck": false,
+          "datasetId": 1,
+          "processorId": 1
+        },
+        {
+          "projectId": 1,
+          "datasetName": "Grocery Section",
+          "datasetType": "Image",
+          "comment": "This type of dataset is generate for to store grocery images.",
+          "status": "Inprogress",
+          "createdDate": "25/9/2019",
+          "createdBy": "Admin",
+          "isDelete": 0,
+          "deletedDate": 0,
+          "deletedBy": "",
+          "timeForAnnotation": 6,
+          "timeForQualityAssurance": 11,
+          "attributeAssigned": 65,
+          "objectAnnotated": 43,
+          "framesProcesed": 90,
+          "attributeAssigmedValue": 3380,
+          "objectAnnotatedValue": 6986,
+          "framesProcesedValue": 8393,
+          "datasetDetails": [
+            {
+              "datasetMasterId": 2,
+              "fileName": "E",
+              "uploadFilePath": "E.png",
+              "comment": "dddddddddd",
+              "fileSize": "0.0024",
+              "fileResolution": "700 X 920",
+              "fileType": "image/png",
+              "framesPerSec": 0,
+              "noOfFrames": 0,
+              "createdDate": "2019/9/15",
+              "createdBy": "Admin",
+              "id": 4
+            }
+          ],
+          "ckeck": false,
+          "datasetId": 2,
+          "processorId": 1
+        }
+      ],
+      "processorId": 1,
+      "id": 1
+    },
+    {
+      "dataset": [
+        {
+          "projectId": 1,
+          "datasetName": "Cold Storage Sections",
+          "datasetType": "Indrayani Thadi drone dataset to be used or facial sentimentanalysis.",
+          "comment": "Video",
+          "status": "Annotated",
+          "createdDate": "30/9/2019",
+          "createdBy": "Admin",
+          "isDelete": 0,
+          "deletedDate": 0,
+          "deletedBy": "",
+          "timeForAnnotation": 11,
+          "timeForQualityAssurance": 7,
+          "attributeAssigned": 11,
+          "objectAnnotated": 81,
+          "framesProcesed": 5,
+          "attributeAssigmedValue": 3109,
+          "objectAnnotatedValue": 1005,
+          "framesProcesedValue": 7421,
+          "datasetDetails": [
+            {
+              "datasetMasterId": 1,
+              "fileName": "chart rahul",
+              "uploadFilePath": "chart.png",
+              "comment": "chart file ",
+              "fileSize": "0.0275",
+              "fileResolution": "700 X 920",
+              "fileType": "image/png",
+              "framesPerSec": 0,
+              "noOfFrames": 30000,
+              "convertedToFrames": 15000,
+              "convertedFrameType": "png",
+              "convertedFramePerSec": 2,
+              "createdDate": "21/9/2019",
+              "createdBy": "Admin",
+              "id": 9
+            }
+          ],
+          "ckeck": false,
+          "datasetId": 1,
+          "processorId": 2
+        },
+        {
+          "projectId": 1,
+          "datasetName": "Grocery Section",
+          "datasetType": "Image",
+          "comment": "This type of dataset is generate for to store grocery images.",
+          "status": "Inprogress",
+          "createdDate": "25/9/2019",
+          "createdBy": "Admin",
+          "isDelete": 0,
+          "deletedDate": 0,
+          "deletedBy": "",
+          "timeForAnnotation": 6,
+          "timeForQualityAssurance": 11,
+          "attributeAssigned": 65,
+          "objectAnnotated": 43,
+          "framesProcesed": 90,
+          "attributeAssigmedValue": 3380,
+          "objectAnnotatedValue": 6986,
+          "framesProcesedValue": 8393,
+          "datasetDetails": [
+            {
+              "datasetMasterId": 2,
+              "fileName": "E",
+              "uploadFilePath": "E.png",
+              "comment": "dddddddddd",
+              "fileSize": "0.0024",
+              "fileResolution": "700 X 920",
+              "fileType": "image/png",
+              "framesPerSec": 0,
+              "noOfFrames": 0,
+              "createdDate": "2019/9/15",
+              "createdBy": "Admin",
+              "id": 4
+            },
+            {
+              "datasetMasterId": 2,
+              "fileName": "ff",
+              "uploadFilePath": "chart.png",
+              "comment": "cc",
+              "fileSize": "0.0275",
+              "fileResolution": "700 X 920",
+              "fileType": "image/png",
+              "framesPerSec": 0,
+              "noOfFrames": 0,
+              "createdDate": "30/9/2019",
+              "createdBy": "Admin",
+              "id": 19
+            }
+          ],
+          "ckeck": false,
+          "datasetId": 2,
+          "processorId": 2
+        }
+      ],
+      "processorId": 2,
+      "id": 2
+    },
+    {
+      "dataset": [
+        {
+          "projectId": 2,
+          "datasetName": "Food Section",
+          "datasetType": "Food Section dataset i",
+          "comment": "Video",
+          "status": "Pending",
+          "createdDate": "25/9/2019",
+          "createdBy": "Admin",
+          "isDelete": 0,
+          "deletedDate": 0,
+          "deletedBy": "",
+          "timeForAnnotation": 6,
+          "timeForQualityAssurance": 8,
+          "attributeAssigned": 7,
+          "objectAnnotated": 39,
+          "framesProcesed": 92,
+          "attributeAssigmedValue": 3480,
+          "objectAnnotatedValue": 115,
+          "framesProcesedValue": 9374,
+          "datasetDetails": [],
+          "ckeck": false,
+          "datasetId": 5
+        }
+      ],
+      "id": 3
+    },
+    {
+      "dataset": [
+        {
+          "projectId": 2,
+          "datasetName": "Cloth Section",
+          "datasetType": "Video",
+          "comment": "Cloth Section dataset is created for cloth images",
+          "status": "Annotated",
+          "createdDate": "25/9/2019",
+          "createdBy": "Admin",
+          "isDelete": 0,
+          "deletedDate": 0,
+          "deletedBy": "",
+          "timeForAnnotation": 6,
+          "timeForQualityAssurance": 11,
+          "attributeAssigned": 37,
+          "objectAnnotated": 92,
+          "framesProcesed": 60,
+          "attributeAssigmedValue": 5015,
+          "objectAnnotatedValue": 7717,
+          "framesProcesedValue": 6194,
+          "datasetDetails": [
+            {
+              "datasetMasterId": 6,
+              "fileName": "Hydrangeas",
+              "uploadFilePath": "Hydrangeas.jpg",
+              "comment": "635",
+              "fileSize": "0.5676",
+              "fileResolution": "700 X 920",
+              "fileType": "image/jpeg",
+              "framesPerSec": 0,
+              "noOfFrames": 0,
+              "createdDate": "17/9/2019",
+              "createdBy": "Admin",
+              "id": 5
+            },
+            {
+              "datasetMasterId": 6,
+              "fileName": "Wakhra Swag - Official Video - Navv Inder feat. Badshah - New Video Song.webm",
+              "uploadFilePath": "Wakhra Swag - Official Video - Navv Inder feat. Badshah - New Video Song.webm",
+              "comment": "cvc",
+              "fileSize": "21.2624",
+              "fileResolution": "700 X 920",
+              "fileType": "video/webm",
+              "framesPerSec": 0,
+              "noOfFrames": 30000,
+              "convertedToFrames": 0,
+              "convertedFrameType": "",
+              "convertedFramePerSec": 0,
+              "createdDate": "25/9/2019",
+              "createdBy": "Admin",
+              "id": 15
+            },
+            {
+              "datasetMasterId": 6,
+              "fileName": "Chiangmai-Hostel.png",
+              "uploadFilePath": "Chiangmai-Hostel.png",
+              "comment": "dd",
+              "fileSize": "0.6536",
+              "fileResolution": "700 X 920",
+              "fileType": "image/png",
+              "framesPerSec": 0,
+              "noOfFrames": 30000,
+              "convertedToFrames": 0,
+              "convertedFrameType": "",
+              "convertedFramePerSec": 0,
+              "createdDate": "26/9/2019",
+              "createdBy": "Admin",
+              "id": 16
+            }
+          ],
+          "ckeck": false,
+          "datasetId": 6
+        }
+      ],
+      "id": 4
+    },
+    {
+      "dataset": [
+        {
+          "projectId": 1,
+          "datasetName": "Cold Storage Sections",
+          "datasetType": "Video",
+          "comment": "Indrayani Thadi drone dataset to be used or facial sentimentanalysis.",
+          "status": "Annotated",
+          "timeForAnnotation": 11,
+          "timeForQualityAssurance": 7,
+          "attributeAssigned": 11,
+          "objectAnnotated": 81,
+          "framesProcesed": 5,
+          "attributeAssigmedValue": 3109,
+          "objectAnnotatedValue": 1005,
+          "framesProcesedValue": 7421,
+          "id": 1,
+          "datasetDetails": [
+            {
+              "id": 1,
+              "datasetMasterId": 1,
+              "fileName": "dataset1.1",
+              "uploadFilePath": "./page1.jpg",
+              "comment": "Test",
+              "fileSize": 800,
+              "fileResolution": "700 X 960",
+              "fileType": "mov",
+              "framesPerSec": 0,
+              "noOfFrames": 30000,
+              "convertedToFrames": 15000,
+              "convertedFrameType": "png",
+              "convertedFramePerSec": 2
+            },
+            {
+              "id": 2,
+              "datasetMasterId": 1,
+              "fileName": "dataset1.2",
+              "uploadFilePath": "./page2.jpg",
+              "comment": "Test",
+              "fileSize": 700,
+              "fileResolution": "700 X 960",
+              "fileType": "mov",
+              "framesPerSec": 0,
+              "noOfFrames": 10000,
+              "convertedToFrames": 3333,
+              "convertedFrameType": "png",
+              "convertedFramePerSec": 3
+            },
+            {
+              "datasetMasterId": 1,
+              "fileName": "dataset1.3",
+              "uploadFilePath": "download.jpg",
+              "comment": "Image",
+              "fileSize": 10812,
+              "fileResolution": "700 X 960",
+              "fileType": "mov",
+              "framesPerSec": 0,
+              "noOfFrames": 7000,
+              "convertedToFrames": 3500,
+              "convertedFrameType": "png",
+              "convertedFramePerSec": 2,
+              "createdDate": "2019/9/15",
+              "createdBy": "Admin",
+              "id": 3
+            }
+          ],
+          "detailsDataset": [
+            {
+              "id": 1,
+              "datasetMasterId": 1,
+              "fileName": "dataset1.1",
+              "uploadFilePath": "./page1.jpg",
+              "comment": "Test",
+              "fileSize": 800,
+              "fileResolution": "700 X 960",
+              "fileType": "mov",
+              "framesPerSec": 0,
+              "noOfFrames": 30000,
+              "convertedToFrames": 15000,
+              "convertedFrameType": "png",
+              "convertedFramePerSec": 2
+            },
+            {
+              "id": 2,
+              "datasetMasterId": 1,
+              "fileName": "dataset1.2",
+              "uploadFilePath": "./page2.jpg",
+              "comment": "Test",
+              "fileSize": 700,
+              "fileResolution": "700 X 960",
+              "fileType": "mov",
+              "framesPerSec": 0,
+              "noOfFrames": 10000,
+              "convertedToFrames": 3333,
+              "convertedFrameType": "png",
+              "convertedFramePerSec": 3
+            }
+          ]
+        },
+        {
+          "projectId": 1,
+          "datasetName": "Grocery Section",
+          "datasetType": "Image",
+          "comment": "This type of dataset is generate for to store grocery images.",
+          "status": "Inprogress",
+          "timeForAnnotation": 6,
+          "timeForQualityAssurance": 11,
+          "attributeAssigned": 65,
+          "objectAnnotated": 43,
+          "framesProcesed": 90,
+          "attributeAssigmedValue": 3380,
+          "objectAnnotatedValue": 6986,
+          "framesProcesedValue": 8393,
+          "id": 2,
+          "datasetDetails": [
+            {
+              "datasetMasterId": 2,
+              "fileName": "E",
+              "uploadFilePath": "E.png",
+              "comment": "dddddddddd",
+              "fileSize": "0.0024",
+              "fileResolution": "700 X 920",
+              "fileType": "image/png",
+              "framesPerSec": 0,
+              "noOfFrames": 0,
+              "id": 4
+            },
+            {
+              "datasetMasterId": 2,
+              "fileName": "ff",
+              "uploadFilePath": "chart.png",
+              "comment": "cc",
+              "fileSize": "0.0275",
+              "fileResolution": "700 X 920",
+              "fileType": "image/png",
+              "framesPerSec": 0,
+              "noOfFrames": 0,
+              "createdDate": "30/9/2019",
+              "createdBy": "Admin",
+              "id": 19
+            }
+          ],
+          "detailsDataset": [
+            {
+              "datasetMasterId": 2,
+              "fileName": "E",
+              "uploadFilePath": "E.png",
+              "comment": "dddddddddd",
+              "fileSize": "0.0024",
+              "fileResolution": "700 X 920",
+              "fileType": "image/png",
+              "framesPerSec": 0,
+              "noOfFrames": 0,
+              "id": 4
+            }
+          ]
+        },
+        {
+          "projectId": 1,
+          "datasetName": "Handloom Section",
+          "datasetType": "Video",
+          "comment": "Handloom Section is type of dataset generated for videos",
+          "status": "Pending",
+          "timeForAnnotation": 5,
+          "timeForQualityAssurance": 3,
+          "attributeAssigned": 24,
+          "objectAnnotated": 66,
+          "framesProcesed": 56,
+          "attributeAssigmedValue": 5477,
+          "objectAnnotatedValue": 9574,
+          "framesProcesedValue": 2864,
+          "id": 3,
+          "datasetDetails": [],
+          "detailsDataset": []
+        }
+      ],
+      "processorId": 1,
+      "id": 5
+    },
+    {
+      "dataset": [
+        {
+          "projectId": 2,
+          "datasetName": "Food Section",
+          "datasetType": "Food Section dataset i",
+          "comment": "Video",
+          "status": "Pending",
+          "createdDate": "25/9/2019",
+          "createdBy": "Admin",
+          "isDelete": 0,
+          "deletedDate": 0,
+          "deletedBy": "",
+          "timeForAnnotation": 6,
+          "timeForQualityAssurance": 8,
+          "attributeAssigned": 7,
+          "objectAnnotated": 39,
+          "framesProcesed": 92,
+          "attributeAssigmedValue": 3480,
+          "objectAnnotatedValue": 115,
+          "framesProcesedValue": 9374,
+          "datasetDetails": [],
+          "ckeck": false,
+          "datasetId": 5
+        },
+        {
+          "projectId": 2,
+          "datasetName": "Cloth Section",
+          "datasetType": "Video",
+          "comment": "Cloth Section dataset is created for cloth images",
+          "status": "Annotated",
+          "createdDate": "25/9/2019",
+          "createdBy": "Admin",
+          "isDelete": 0,
+          "deletedDate": 0,
+          "deletedBy": "",
+          "timeForAnnotation": 6,
+          "timeForQualityAssurance": 11,
+          "attributeAssigned": 37,
+          "objectAnnotated": 92,
+          "framesProcesed": 60,
+          "attributeAssigmedValue": 5015,
+          "objectAnnotatedValue": 7717,
+          "framesProcesedValue": 6194,
+          "datasetDetails": [
+            {
+              "datasetMasterId": 6,
+              "fileName": "Hydrangeas",
+              "uploadFilePath": "Hydrangeas.jpg",
+              "comment": "635",
+              "fileSize": "0.5676",
+              "fileResolution": "700 X 920",
+              "fileType": "image/jpeg",
+              "framesPerSec": 0,
+              "noOfFrames": 0,
+              "createdDate": "17/9/2019",
+              "createdBy": "Admin",
+              "id": 5
+            },
+            {
+              "datasetMasterId": 6,
+              "fileName": "Wakhra Swag - Official Video - Navv Inder feat. Badshah - New Video Song.webm",
+              "uploadFilePath": "Wakhra Swag - Official Video - Navv Inder feat. Badshah - New Video Song.webm",
+              "comment": "cvc",
+              "fileSize": "21.2624",
+              "fileResolution": "700 X 920",
+              "fileType": "video/webm",
+              "framesPerSec": 0,
+              "noOfFrames": 30000,
+              "convertedToFrames": 0,
+              "convertedFrameType": "",
+              "convertedFramePerSec": 0,
+              "createdDate": "25/9/2019",
+              "createdBy": "Admin",
+              "id": 15
+            },
+            {
+              "datasetMasterId": 6,
+              "fileName": "Chiangmai-Hostel.png",
+              "uploadFilePath": "Chiangmai-Hostel.png",
+              "comment": "dd",
+              "fileSize": "0.6536",
+              "fileResolution": "700 X 920",
+              "fileType": "image/png",
+              "framesPerSec": 0,
+              "noOfFrames": 30000,
+              "convertedToFrames": 0,
+              "convertedFrameType": "",
+              "convertedFramePerSec": 0,
+              "createdDate": "26/9/2019",
+              "createdBy": "Admin",
+              "id": 16
+            }
+          ],
+          "ckeck": false,
+          "datasetId": 6
+        },
+        {
+          "projectId": 2,
+          "datasetName": "Demo Section",
+          "datasetType": "Image",
+          "comment": "Demo ",
+          "status": "Inprogress",
+          "createdDate": "25/9/2019",
+          "createdBy": "Admin",
+          "isDelete": 0,
+          "deletedDate": 0,
+          "deletedBy": "",
+          "timeForAnnotation": 4,
+          "timeForQualityAssurance": 4,
+          "attributeAssigned": 46,
+          "objectAnnotated": 97,
+          "framesProcesed": 26,
+          "attributeAssigmedValue": 3112,
+          "objectAnnotatedValue": 8301,
+          "framesProcesedValue": 4437,
+          "datasetDetails": [],
+          "ckeck": false,
+          "datasetId": 7
+        },
+        {
+          "projectId": 2,
+          "datasetName": "dataset 22",
+          "datasetType": "Video",
+          "comment": "dataset 22 image format",
+          "status": "Inprogress",
+          "createdDate": "25/9/2019",
+          "createdBy": "Admin",
+          "isDelete": 0,
+          "deletedDate": 0,
+          "deletedBy": "",
+          "timeForAnnotation": 2,
+          "timeForQualityAssurance": 11,
+          "attributeAssigned": 15,
+          "objectAnnotated": 22,
+          "framesProcesed": 26,
+          "attributeAssigmedValue": 7384,
+          "objectAnnotatedValue": 8188,
+          "framesProcesedValue": 3124,
+          "datasetDetails": [],
+          "ckeck": false,
+          "datasetId": 8
+        }
+      ],
+      "id": 6
+    }
+  ],
+  "Processors": [
+    {
+      "id": 1,
+      "processName": "Automaton AI"
+    },
+    {
+      "id": 2,
+      "processName": "Resnet V1"
+    },
+    {
+      "id": 3,
+      "processName": "YOLO"
+    },
+    {
+      "id": 4,
+      "processName": "Mask R-CNN"
+    }
+  ],
+  "ImportImages": [
+    {
+      "projectId": 1,
+      "id": 1,
+      "uploadFilePath": "",
+      "createdDate": "25/9/2019",
+      "createdBy": "Admin",
+      "isDelete": 0,
+      "deletedDate": 0
+    }
+  ],
+  "ResourcesData": [
+    {
+      "userId": 2,
+      "objectCount": 1500,
+      "timeSpan": 8
+    },
+    {
+      "userId": 3,
+      "objectCount": 100000,
+      "timeSpan": 7
+    },
+    {
+      "userId": 1,
+      "objectCount": 15000,
+      "timeSpan": 4
+    }
+  ],
+  "UserResourceData": [
+    {
+      "userId": 2,
+      "bug": 15,
+      "trafficSigns": 25,
+      "shoes": 5,
+      "man": 13,
+      "women": 24,
+      "car": 17,
+      "tuck": 9,
+      "signal": 2
+    },
+    {
+      "userId": 3,
+      "bug": 11,
+      "trafficSigns": 26,
+      "shoes": 9,
+      "man": 7,
+      "women": 19,
+      "car": 7,
+      "tuck": 18,
+      "signal": 24
+    },
+    {
+      "userId": 1,
+      "bug": 18,
+      "trafficSigns": 12,
+      "shoes": 7,
+      "man": 19,
+      "women": 29,
+      "car": 9,
+      "tuck": 1,
+      "signal": 14
+    }
+  ]
 }
