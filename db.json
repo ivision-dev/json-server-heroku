@@ -1687,55 +1687,64 @@
     }
   ],
   "ResourcesData": [
-    {
-      "userId": 2,
-      "objectCount": 1500,
-      "timeSpan": 8
-    },
-    {
-      "userId": 3,
-      "objectCount": 100000,
-      "timeSpan": 7
-    },
-    {
-      "userId": 1,
-      "objectCount": 15000,
-      "timeSpan": 4
-    }
-  ],
-  "UserResourceData": [
-    {
-      "userId": 2,
-      "bug": 15,
-      "trafficSigns": 25,
-      "shoes": 5,
-      "man": 13,
-      "women": 24,
-      "car": 17,
-      "tuck": 9,
-      "signal": 2
-    },
-    {
-      "userId": 3,
-      "bug": 11,
-      "trafficSigns": 26,
-      "shoes": 9,
-      "man": 7,
-      "women": 19,
-      "car": 7,
-      "tuck": 18,
-      "signal": 24
-    },
-    {
-      "userId": 1,
-      "bug": 18,
-      "trafficSigns": 12,
-      "shoes": 7,
-      "man": 19,
-      "women": 29,
-      "car": 9,
-      "tuck": 1,
-      "signal": 14
-    }
-  ]
+   {
+     "id":1,
+     "userId": 2,
+     "objectCount": 1500,
+     "timeSpan": 8,
+     "projectId":1
+   },
+   {
+     "id":1,
+     "userId": 3,
+     "objectCount": 100000,
+     "timeSpan": 7,
+     "projectId":1
+   },
+   {
+     "id":1,
+     "userId": 1,
+     "objectCount": 15000,
+     "timeSpan": 4,
+     "projectId":1
+   }
+ ],
+ "UserResourceData": [
+   {
+     "userId": 2,
+     "bug": 15,
+     "trafficSigns": 25,
+     "shoes": 5,
+     "man": 13,
+     "women": 24,
+     "car": 17,
+     "tuck": 9,
+     "signal": 2,
+     "projectId":1
+   },
+   {
+     "userId": 3,
+     "bug": 11,
+     "trafficSigns": 26,
+     "shoes": 9,
+     "man": 7,
+     "women": 19,
+     "car": 7,
+     "tuck": 18,
+     "signal": 24,
+     "projectId":1
+   },
+   {
+     "userId": 1,
+     "bug": 18,
+     "trafficSigns": 12,
+     "shoes": 7,
+     "man": 19,
+     "women": 29,
+     "car": 9,
+     "tuck": 1,
+     "signal": 14,
+     "projectId":1
+   }
+ ]
 }
