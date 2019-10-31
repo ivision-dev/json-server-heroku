@@ -1828,5 +1828,94 @@
      "signal": 14,
      "projectId":1
    }
+ ],
+  "UserResourceData1": [
+  {
+   "userId": 1,
+   "data" : [
+     {
+       "name": "Bag",
+       "value" : 20
+     },
+     {
+       "name": "Bike",
+       "value" : 30
+     },
+     {
+       "name": "Truck",
+       "value" : 15
+     },
+     {
+       "name": "Traffic Signals",
+       "value" : 40
+     },
+     {
+       "name": "Men",
+       "value" : 45
+     },
+     {
+       "name": "Women",
+       "value" : 35
+     }
+   ]
+  },
+  {
+   "userId": 2,
+   "data" : [
+     {
+       "name": "Bag",
+       "value" : 10
+     },
+     {
+       "name": "Bike",
+       "value" : 20
+     },
+     {
+       "name": "Truck",
+       "value" : 25
+     },
+     {
+       "name": "Traffic Signals",
+       "value" : 60
+     },
+     {
+       "name": "Men",
+       "value" : 75
+     },
+     {
+       "name": "Women",
+       "value" : 55
+     }
+   ]
+  },
+  {
+   "userId": 3,
+   "data" : [
+     {
+       "name": "Bag",
+       "value" : 30
+     },
+     {
+       "name": "Bike",
+       "value" : 20
+     },
+     {
+       "name": "Truck",
+       "value" : 15
+     },
+     {
+       "name": "Traffic Signals",
+       "value" : 90
+     },
+     {
+       "name": "Men",
+       "value" : 85
+     },
+     {
+       "name": "Women",
+       "value" : 65
+     }
+   ]
+  }
  ]
 }
