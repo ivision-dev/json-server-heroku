@@ -1074,647 +1074,6 @@
       "framesProcesedValue": 1212
     }
   ],
-  "Processing": [
-    {
-      "dataset": [
-        {
-          "projectId": 1,
-          "datasetName": "Cold Storage Sections",
-          "datasetType": "Indrayani Thadi drone dataset to be used or facial sentimentanalysis.",
-          "comment": "Video",
-          "status": "Annotated",
-          "createdDate": "30/9/2019",
-          "createdBy": "Admin",
-          "isDelete": 0,
-          "deletedDate": 0,
-          "deletedBy": "",
-          "timeForAnnotation": 11,
-          "timeForQualityAssurance": 7,
-          "attributeAssigned": 11,
-          "objectAnnotated": 81,
-          "framesProcesed": 5,
-          "attributeAssigmedValue": 3109,
-          "objectAnnotatedValue": 1005,
-          "framesProcesedValue": 7421,
-          "datasetDetails": [
-            {
-              "id": 2,
-              "datasetMasterId": 1,
-              "fileName": "dataset1.2",
-              "uploadFilePath": "./page2.jpg",
-              "comment": "Test",
-              "fileSize": 700,
-              "fileResolution": "700 X 960",
-              "fileType": "mov",
-              "framesPerSec": 0,
-              "noOfFrames": 10000,
-              "convertedToFrames": 3333,
-              "convertedFrameType": "png",
-              "convertedFramePerSec": 3,
-              "createdDate": "2019/9/16",
-              "createdBy": "Admin",
-              "isDelete": 0,
-              "deletedDate": "",
-              "deletedBy": ""
-            }
-          ],
-          "ckeck": false,
-          "datasetId": 1,
-          "processorId": 1
-        },
-        {
-          "projectId": 1,
-          "datasetName": "Grocery Section",
-          "datasetType": "Image",
-          "comment": "This type of dataset is generate for to store grocery images.",
-          "status": "Inprogress",
-          "createdDate": "25/9/2019",
-          "createdBy": "Admin",
-          "isDelete": 0,
-          "deletedDate": 0,
-          "deletedBy": "",
-          "timeForAnnotation": 6,
-          "timeForQualityAssurance": 11,
-          "attributeAssigned": 65,
-          "objectAnnotated": 43,
-          "framesProcesed": 90,
-          "attributeAssigmedValue": 3380,
-          "objectAnnotatedValue": 6986,
-          "framesProcesedValue": 8393,
-          "datasetDetails": [
-            {
-              "datasetMasterId": 2,
-              "fileName": "E",
-              "uploadFilePath": "E.png",
-              "comment": "dddddddddd",
-              "fileSize": "0.0024",
-              "fileResolution": "700 X 920",
-              "fileType": "image/png",
-              "framesPerSec": 0,
-              "noOfFrames": 0,
-              "createdDate": "2019/9/15",
-              "createdBy": "Admin",
-              "id": 4
-            }
-          ],
-          "ckeck": false,
-          "datasetId": 2,
-          "processorId": 1
-        }
-      ],
-      "processorId": 1,
-      "id": 1
-    },
-    {
-      "dataset": [
-        {
-          "projectId": 1,
-          "datasetName": "Cold Storage Sections",
-          "datasetType": "Indrayani Thadi drone dataset to be used or facial sentimentanalysis.",
-          "comment": "Video",
-          "status": "Annotated",
-          "createdDate": "30/9/2019",
-          "createdBy": "Admin",
-          "isDelete": 0,
-          "deletedDate": 0,
-          "deletedBy": "",
-          "timeForAnnotation": 11,
-          "timeForQualityAssurance": 7,
-          "attributeAssigned": 11,
-          "objectAnnotated": 81,
-          "framesProcesed": 5,
-          "attributeAssigmedValue": 3109,
-          "objectAnnotatedValue": 1005,
-          "framesProcesedValue": 7421,
-          "datasetDetails": [
-            {
-              "datasetMasterId": 1,
-              "fileName": "chart rahul",
-              "uploadFilePath": "chart.png",
-              "comment": "chart file ",
-              "fileSize": "0.0275",
-              "fileResolution": "700 X 920",
-              "fileType": "image/png",
-              "framesPerSec": 0,
-              "noOfFrames": 30000,
-              "convertedToFrames": 15000,
-              "convertedFrameType": "png",
-              "convertedFramePerSec": 2,
-              "createdDate": "21/9/2019",
-              "createdBy": "Admin",
-              "id": 9
-            }
-          ],
-          "ckeck": false,
-          "datasetId": 1,
-          "processorId": 2
-        },
-        {
-          "projectId": 1,
-          "datasetName": "Grocery Section",
-          "datasetType": "Image",
-          "comment": "This type of dataset is generate for to store grocery images.",
-          "status": "Inprogress",
-          "createdDate": "25/9/2019",
-          "createdBy": "Admin",
-          "isDelete": 0,
-          "deletedDate": 0,
-          "deletedBy": "",
-          "timeForAnnotation": 6,
-          "timeForQualityAssurance": 11,
-          "attributeAssigned": 65,
-          "objectAnnotated": 43,
-          "framesProcesed": 90,
-          "attributeAssigmedValue": 3380,
-          "objectAnnotatedValue": 6986,
-          "framesProcesedValue": 8393,
-          "datasetDetails": [
-            {
-              "datasetMasterId": 2,
-              "fileName": "E",
-              "uploadFilePath": "E.png",
-              "comment": "dddddddddd",
-              "fileSize": "0.0024",
-              "fileResolution": "700 X 920",
-              "fileType": "image/png",
-              "framesPerSec": 0,
-              "noOfFrames": 0,
-              "createdDate": "2019/9/15",
-              "createdBy": "Admin",
-              "id": 4
-            },
-            {
-              "datasetMasterId": 2,
-              "fileName": "ff",
-              "uploadFilePath": "chart.png",
-              "comment": "cc",
-              "fileSize": "0.0275",
-              "fileResolution": "700 X 920",
-              "fileType": "image/png",
-              "framesPerSec": 0,
-              "noOfFrames": 0,
-              "createdDate": "30/9/2019",
-              "createdBy": "Admin",
-              "id": 19
-            }
-          ],
-          "ckeck": false,
-          "datasetId": 2,
-          "processorId": 2
-        }
-      ],
-      "processorId": 2,
-      "id": 2
-    },
-    {
-      "dataset": [
-        {
-          "projectId": 2,
-          "datasetName": "Food Section",
-          "datasetType": "Food Section dataset i",
-          "comment": "Video",
-          "status": "Pending",
-          "createdDate": "25/9/2019",
-          "createdBy": "Admin",
-          "isDelete": 0,
-          "deletedDate": 0,
-          "deletedBy": "",
-          "timeForAnnotation": 6,
-          "timeForQualityAssurance": 8,
-          "attributeAssigned": 7,
-          "objectAnnotated": 39,
-          "framesProcesed": 92,
-          "attributeAssigmedValue": 3480,
-          "objectAnnotatedValue": 115,
-          "framesProcesedValue": 9374,
-          "datasetDetails": [],
-          "ckeck": false,
-          "datasetId": 5
-        }
-      ],
-      "id": 3
-    },
-    {
-      "dataset": [
-        {
-          "projectId": 2,
-          "datasetName": "Cloth Section",
-          "datasetType": "Video",
-          "comment": "Cloth Section dataset is created for cloth images",
-          "status": "Annotated",
-          "createdDate": "25/9/2019",
-          "createdBy": "Admin",
-          "isDelete": 0,
-          "deletedDate": 0,
-          "deletedBy": "",
-          "timeForAnnotation": 6,
-          "timeForQualityAssurance": 11,
-          "attributeAssigned": 37,
-          "objectAnnotated": 92,
-          "framesProcesed": 60,
-          "attributeAssigmedValue": 5015,
-          "objectAnnotatedValue": 7717,
-          "framesProcesedValue": 6194,
-          "datasetDetails": [
-            {
-              "datasetMasterId": 6,
-              "fileName": "Hydrangeas",
-              "uploadFilePath": "Hydrangeas.jpg",
-              "comment": "635",
-              "fileSize": "0.5676",
-              "fileResolution": "700 X 920",
-              "fileType": "image/jpeg",
-              "framesPerSec": 0,
-              "noOfFrames": 0,
-              "createdDate": "17/9/2019",
-              "createdBy": "Admin",
-              "id": 5
-            },
-            {
-              "datasetMasterId": 6,
-              "fileName": "Wakhra Swag - Official Video - Navv Inder feat. Badshah - New Video Song.webm",
-              "uploadFilePath": "Wakhra Swag - Official Video - Navv Inder feat. Badshah - New Video Song.webm",
-              "comment": "cvc",
-              "fileSize": "21.2624",
-              "fileResolution": "700 X 920",
-              "fileType": "video/webm",
-              "framesPerSec": 0,
-              "noOfFrames": 30000,
-              "convertedToFrames": 0,
-              "convertedFrameType": "",
-              "convertedFramePerSec": 0,
-              "createdDate": "25/9/2019",
-              "createdBy": "Admin",
-              "id": 15
-            },
-            {
-              "datasetMasterId": 6,
-              "fileName": "Chiangmai-Hostel.png",
-              "uploadFilePath": "Chiangmai-Hostel.png",
-              "comment": "dd",
-              "fileSize": "0.6536",
-              "fileResolution": "700 X 920",
-              "fileType": "image/png",
-              "framesPerSec": 0,
-              "noOfFrames": 30000,
-              "convertedToFrames": 0,
-              "convertedFrameType": "",
-              "convertedFramePerSec": 0,
-              "createdDate": "26/9/2019",
-              "createdBy": "Admin",
-              "id": 16
-            }
-          ],
-          "ckeck": false,
-          "datasetId": 6
-        }
-      ],
-      "id": 4
-    },
-    {
-      "dataset": [
-        {
-          "projectId": 1,
-          "datasetName": "Cold Storage Sections",
-          "datasetType": "Video",
-          "comment": "Indrayani Thadi drone dataset to be used or facial sentimentanalysis.",
-          "status": "Annotated",
-          "timeForAnnotation": 11,
-          "timeForQualityAssurance": 7,
-          "attributeAssigned": 11,
-          "objectAnnotated": 81,
-          "framesProcesed": 5,
-          "attributeAssigmedValue": 3109,
-          "objectAnnotatedValue": 1005,
-          "framesProcesedValue": 7421,
-          "id": 1,
-          "datasetDetails": [
-            {
-              "id": 1,
-              "datasetMasterId": 1,
-              "fileName": "dataset1.1",
-              "uploadFilePath": "./page1.jpg",
-              "comment": "Test",
-              "fileSize": 800,
-              "fileResolution": "700 X 960",
-              "fileType": "mov",
-              "framesPerSec": 0,
-              "noOfFrames": 30000,
-              "convertedToFrames": 15000,
-              "convertedFrameType": "png",
-              "convertedFramePerSec": 2
-            },
-            {
-              "id": 2,
-              "datasetMasterId": 1,
-              "fileName": "dataset1.2",
-              "uploadFilePath": "./page2.jpg",
-              "comment": "Test",
-              "fileSize": 700,
-              "fileResolution": "700 X 960",
-              "fileType": "mov",
-              "framesPerSec": 0,
-              "noOfFrames": 10000,
-              "convertedToFrames": 3333,
-              "convertedFrameType": "png",
-              "convertedFramePerSec": 3
-            },
-            {
-              "datasetMasterId": 1,
-              "fileName": "dataset1.3",
-              "uploadFilePath": "download.jpg",
-              "comment": "Image",
-              "fileSize": 10812,
-              "fileResolution": "700 X 960",
-              "fileType": "mov",
-              "framesPerSec": 0,
-              "noOfFrames": 7000,
-              "convertedToFrames": 3500,
-              "convertedFrameType": "png",
-              "convertedFramePerSec": 2,
-              "createdDate": "2019/9/15",
-              "createdBy": "Admin",
-              "id": 3
-            }
-          ],
-          "detailsDataset": [
-            {
-              "id": 1,
-              "datasetMasterId": 1,
-              "fileName": "dataset1.1",
-              "uploadFilePath": "./page1.jpg",
-              "comment": "Test",
-              "fileSize": 800,
-              "fileResolution": "700 X 960",
-              "fileType": "mov",
-              "framesPerSec": 0,
-              "noOfFrames": 30000,
-              "convertedToFrames": 15000,
-              "convertedFrameType": "png",
-              "convertedFramePerSec": 2
-            },
-            {
-              "id": 2,
-              "datasetMasterId": 1,
-              "fileName": "dataset1.2",
-              "uploadFilePath": "./page2.jpg",
-              "comment": "Test",
-              "fileSize": 700,
-              "fileResolution": "700 X 960",
-              "fileType": "mov",
-              "framesPerSec": 0,
-              "noOfFrames": 10000,
-              "convertedToFrames": 3333,
-              "convertedFrameType": "png",
-              "convertedFramePerSec": 3
-            }
-          ]
-        },
-        {
-          "projectId": 1,
-          "datasetName": "Grocery Section",
-          "datasetType": "Image",
-          "comment": "This type of dataset is generate for to store grocery images.",
-          "status": "Inprogress",
-          "timeForAnnotation": 6,
-          "timeForQualityAssurance": 11,
-          "attributeAssigned": 65,
-          "objectAnnotated": 43,
-          "framesProcesed": 90,
-          "attributeAssigmedValue": 3380,
-          "objectAnnotatedValue": 6986,
-          "framesProcesedValue": 8393,
-          "id": 2,
-          "datasetDetails": [
-            {
-              "datasetMasterId": 2,
-              "fileName": "E",
-              "uploadFilePath": "E.png",
-              "comment": "dddddddddd",
-              "fileSize": "0.0024",
-              "fileResolution": "700 X 920",
-              "fileType": "image/png",
-              "framesPerSec": 0,
-              "noOfFrames": 0,
-              "id": 4
-            },
-            {
-              "datasetMasterId": 2,
-              "fileName": "ff",
-              "uploadFilePath": "chart.png",
-              "comment": "cc",
-              "fileSize": "0.0275",
-              "fileResolution": "700 X 920",
-              "fileType": "image/png",
-              "framesPerSec": 0,
-              "noOfFrames": 0,
-              "createdDate": "30/9/2019",
-              "createdBy": "Admin",
-              "id": 19
-            }
-          ],
-          "detailsDataset": [
-            {
-              "datasetMasterId": 2,
-              "fileName": "E",
-              "uploadFilePath": "E.png",
-              "comment": "dddddddddd",
-              "fileSize": "0.0024",
-              "fileResolution": "700 X 920",
-              "fileType": "image/png",
-              "framesPerSec": 0,
-              "noOfFrames": 0,
-              "id": 4
-            }
-          ]
-        },
-        {
-          "projectId": 1,
-          "datasetName": "Handloom Section",
-          "datasetType": "Video",
-          "comment": "Handloom Section is type of dataset generated for videos",
-          "status": "Pending",
-          "timeForAnnotation": 5,
-          "timeForQualityAssurance": 3,
-          "attributeAssigned": 24,
-          "objectAnnotated": 66,
-          "framesProcesed": 56,
-          "attributeAssigmedValue": 5477,
-          "objectAnnotatedValue": 9574,
-          "framesProcesedValue": 2864,
-          "id": 3,
-          "datasetDetails": [],
-          "detailsDataset": []
-        }
-      ],
-      "processorId": 1,
-      "id": 5
-    },
-    {
-      "dataset": [
-        {
-          "projectId": 2,
-          "datasetName": "Food Section",
-          "datasetType": "Food Section dataset i",
-          "comment": "Video",
-          "status": "Pending",
-          "createdDate": "25/9/2019",
-          "createdBy": "Admin",
-          "isDelete": 0,
-          "deletedDate": 0,
-          "deletedBy": "",
-          "timeForAnnotation": 6,
-          "timeForQualityAssurance": 8,
-          "attributeAssigned": 7,
-          "objectAnnotated": 39,
-          "framesProcesed": 92,
-          "attributeAssigmedValue": 3480,
-          "objectAnnotatedValue": 115,
-          "framesProcesedValue": 9374,
-          "datasetDetails": [],
-          "ckeck": false,
-          "datasetId": 5
-        },
-        {
-          "projectId": 2,
-          "datasetName": "Cloth Section",
-          "datasetType": "Video",
-          "comment": "Cloth Section dataset is created for cloth images",
-          "status": "Annotated",
-          "createdDate": "25/9/2019",
-          "createdBy": "Admin",
-          "isDelete": 0,
-          "deletedDate": 0,
-          "deletedBy": "",
-          "timeForAnnotation": 6,
-          "timeForQualityAssurance": 11,
-          "attributeAssigned": 37,
-          "objectAnnotated": 92,
-          "framesProcesed": 60,
-          "attributeAssigmedValue": 5015,
-          "objectAnnotatedValue": 7717,
-          "framesProcesedValue": 6194,
-          "datasetDetails": [
-            {
-              "datasetMasterId": 6,
-              "fileName": "Hydrangeas",
-              "uploadFilePath": "Hydrangeas.jpg",
-              "comment": "635",
-              "fileSize": "0.5676",
-              "fileResolution": "700 X 920",
-              "fileType": "image/jpeg",
-              "framesPerSec": 0,
-              "noOfFrames": 0,
-              "createdDate": "17/9/2019",
-              "createdBy": "Admin",
-              "id": 5
-            },
-            {
-              "datasetMasterId": 6,
-              "fileName": "Wakhra Swag - Official Video - Navv Inder feat. Badshah - New Video Song.webm",
-              "uploadFilePath": "Wakhra Swag - Official Video - Navv Inder feat. Badshah - New Video Song.webm",
-              "comment": "cvc",
-              "fileSize": "21.2624",
-              "fileResolution": "700 X 920",
-              "fileType": "video/webm",
-              "framesPerSec": 0,
-              "noOfFrames": 30000,
-              "convertedToFrames": 0,
-              "convertedFrameType": "",
-              "convertedFramePerSec": 0,
-              "createdDate": "25/9/2019",
-              "createdBy": "Admin",
-              "id": 15
-            },
-            {
-              "datasetMasterId": 6,
-              "fileName": "Chiangmai-Hostel.png",
-              "uploadFilePath": "Chiangmai-Hostel.png",
-              "comment": "dd",
-              "fileSize": "0.6536",
-              "fileResolution": "700 X 920",
-              "fileType": "image/png",
-              "framesPerSec": 0,
-              "noOfFrames": 30000,
-              "convertedToFrames": 0,
-              "convertedFrameType": "",
-              "convertedFramePerSec": 0,
-              "createdDate": "26/9/2019",
-              "createdBy": "Admin",
-              "id": 16
-            }
-          ],
-          "ckeck": false,
-          "datasetId": 6
-        },
-        {
-          "projectId": 2,
-          "datasetName": "Demo Section",
-          "datasetType": "Image",
-          "comment": "Demo ",
-          "status": "Inprogress",
-          "createdDate": "25/9/2019",
-          "createdBy": "Admin",
-          "isDelete": 0,
-          "deletedDate": 0,
-          "deletedBy": "",
-          "timeForAnnotation": 4,
-          "timeForQualityAssurance": 4,
-          "attributeAssigned": 46,
-          "objectAnnotated": 97,
-          "framesProcesed": 26,
-          "attributeAssigmedValue": 3112,
-          "objectAnnotatedValue": 8301,
-          "framesProcesedValue": 4437,
-          "datasetDetails": [],
-          "ckeck": false,
-          "datasetId": 7
-        },
-        {
-          "projectId": 2,
-          "datasetName": "dataset 22",
-          "datasetType": "Video",
-          "comment": "dataset 22 image format",
-          "status": "Inprogress",
-          "createdDate": "25/9/2019",
-          "createdBy": "Admin",
-          "isDelete": 0,
-          "deletedDate": 0,
-          "deletedBy": "",
-          "timeForAnnotation": 2,
-          "timeForQualityAssurance": 11,
-          "attributeAssigned": 15,
-          "objectAnnotated": 22,
-          "framesProcesed": 26,
-          "attributeAssigmedValue": 7384,
-          "objectAnnotatedValue": 8188,
-          "framesProcesedValue": 3124,
-          "datasetDetails": [],
-          "ckeck": false,
-          "datasetId": 8
-        }
-      ],
-      "id": 6
-    }
-  ],
-  "Processors": [
-    {
-      "id": 1,
-      "processName": "Automaton AI"
-    },
-    {
-      "id": 2,
-      "processName": "Resnet V1"
-    },
-    {
-      "id": 3,
-      "processName": "YOLO"
-    },
-    {
-      "id": 4,
-      "processName": "Mask R-CNN"
-    }
-  ],
   "ImportImages": [
     {
       "projectId": 1,
@@ -1793,40 +1152,113 @@
  ],
  "UserResourceData": [
    {
+     "userId": 1,
+     "projectId": 1,
+     "data": [
+       {
+         "name": "Bag",
+         "value": 20
+       },
+       {
+         "name": "Bike",
+         "value": 30
+       },
+       {
+         "name": "Truck",
+         "value": 15
+       },
+       {
+         "name": "Traffic Signals",
+         "value": 40
+       },
+       {
+         "name": "Men",
+         "value": 45
+       },
+       {
+         "name": "Women",
+         "value": 35
+       }
+     ]
+   },
+   {
      "userId": 2,
-     "bug": 15,
-     "trafficSigns": 25,
-     "shoes": 5,
-     "man": 13,
-     "women": 24,
-     "car": 17,
-     "tuck": 9,
-     "signal": 2,
-     "projectId":1
+     "projectId": 2,
+     "data": [
+       {
+         "name": "Bag",
+         "value": 10
+       },
+       {
+         "name": "Bike",
+         "value": 20
+       },
+       {
+         "name": "Truck",
+         "value": 25
+       },
+       {
+         "name": "Traffic Signals",
+         "value": 60
+       },
+       {
+         "name": "Men",
+         "value": 75
+       },
+       {
+         "name": "Women",
+         "value": 55
+       }
+     ]
    },
    {
      "userId": 3,
-     "bug": 11,
-     "trafficSigns": 26,
-     "shoes": 9,
-     "man": 7,
-     "women": 19,
-     "car": 7,
-     "tuck": 18,
-     "signal": 24,
-     "projectId":1
-   },
-   {
-     "userId": 1,
-     "bug": 18,
-     "trafficSigns": 12,
-     "shoes": 7,
-     "man": 19,
-     "women": 29,
-     "car": 9,
-     "tuck": 1,
-     "signal": 14,
-     "projectId":1
+     "projectId": 3,
+     "data": [
+       {
+         "name": "Bag",
+         "value": 30
+       },
+       {
+         "name": "Bike",
+         "value": 20
+       },
+       {
+         "name": "Truck",
+         "value": 15
+       },
+       {
+         "name": "Traffic Signals",
+         "value": 90
+       },
+       {
+         "name": "Men",
+         "value": 85
+       },
+       {
+         "name": "Women",
+         "value": 65
+       }
+     ]
    }
- ]
+ ],
+  "ProcessingModels": [
+    {
+      "id": 1,
+      "modelName": "Automaton AI"
+    },
+    {
+      "id": 2,
+      "modelName": "Resnet V1"
+    },
+    {
+      "id": 3,
+      "modelName": "YOLO"
+    },
+    {
+      "id": 4,
+      "modelName": "Mask R-CNN"
+    }
+  ],
+  "ProcessingByCategory": []
 }
